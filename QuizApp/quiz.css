@@ -1,0 +1,51 @@
+
+  * {
+    font-family: "Verdana";
+    color: #B03A2E;
+  }
+  
+  body {
+    background-color:#E74C3C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .app {
+    background-color: #F5CBA7;
+    width: 450px;
+    min-height: 200px;
+    height: min-content;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 10px 10px 42px 0px rgba(63, 59, 59, 0.75);
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  
+  button {
+    width: 100%;
+    font-size: 16px;
+    color: #B03A2E;
+    background-color: #D6EAF8;
+    border-radius: 15px;
+    display: flex;
+    padding: 5px;
+    justify-content: flex-start;
+    align-items: center;
+    border: 5px solid #234668;
+    cursor: pointer;
+  }
+
+  
+ 
+  
+  button:hover {
+    background-color: #555e7d;
+  }
+  
+ 
+  
+ 
